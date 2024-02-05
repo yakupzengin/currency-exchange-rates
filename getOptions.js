@@ -1,7 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    //  HTTP request to retrieve data from the API
+    //  HTTP request to retrieve data from the  API 
 
     fetch('https://api.freecurrencyapi.com/v1/currencies?apikey=fca_live_4FQDrpwzP7HWFw37oT89Z4kqUa3jMdNGuTM73V0O')
         .then(response => response.json())
