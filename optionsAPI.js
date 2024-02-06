@@ -40,5 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .then((result) => {
                 resultInput.value = result.toFixed(3);
             });
+        
     }
 });
