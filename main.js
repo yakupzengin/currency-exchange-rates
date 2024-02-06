@@ -17,7 +17,6 @@ function exchange(){
     const amount = Number(amountInput.value.trim());
     const firstOptionValue = firstOption.options[firstOption.selectedIndex].textContent;
     const secondOptionValue = secondOption.options[secondOption.selectedIndex].textContent;
-    console.log("firstOptionValue" + firstOptionValue + "secondOptionValue" + secondOptionValue)
 
     currency.exchange(amount,firstOptionValue,secondOptionValue)
     .then( (result) => {
