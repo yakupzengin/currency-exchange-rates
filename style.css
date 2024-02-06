@@ -8,15 +8,44 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #main{
     display: flex;
     flex-direction:column;
-    border:1px solid lightgray;
+    align-items: center;
+    border:1px solid lightgrey;
     width: 600px;
-    padding: 17px;
+    padding: 10px;
     height: auto;
     border-radius: 7px;
+    background-color: bisque;
 }
 
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-wrapper h4 {
+    margin: 15px;
+    font-size: 20px;
+}
+input {
+    padding: 5px;
+    margin: 0 10px;
+    width: 120px;
+}
+select{
+    padding: 5px;
+}
+.copyright{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+.arrow{
+    margin: 0 6px;
+}
