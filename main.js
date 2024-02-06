@@ -20,4 +20,7 @@ function exchange(){
     console.log("firstOptionValue" + firstOptionValue + "secondOptionValue" + secondOptionValue)
 
     currency.exchange(amount,firstOptionValue,secondOptionValue)
+    .then( (result) => {
+        resultInput.value = result.toFixed(3)
+    })
 }
